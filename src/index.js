@@ -1,10 +1,6 @@
-function component() {
-  const element = document.createElement("div");
-
-  // Lodash, now imported by this script
-  element.innerHTML = "Hello World";
-
-  return element;
-}
+import { createHeader } from "./components/header";
+import { createFooter } from "./components/footer";
+import "./styles/style.css";
 const content = document.querySelector(".content");
-content.appendChild(component());
+content.appendChild(createHeader());
+document.body.appendChild(createFooter());
