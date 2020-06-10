@@ -1,6 +1,14 @@
 body {
   background-color: black;
-  background-image: url("../images/resta.jpg");
+  background-image: url("./resta.jpg");
+  margin: 0;
+}
+
+.content {
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  margin: 0px 0px;
 }
 
 .head {
@@ -73,4 +81,80 @@ body {
 .fb-class,
 .tw-class {
   padding-right: 40px;
+}
+
+/** Mid content **/
+
+.mid-content {
+  color: white;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-right: 20%;
+}
+
+.menu-box {
+  border: 2px solid cornflowerblue;
+  height: 450px;
+  border-radius: 9px;
+}
+
+.menu-box-title {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-family: monospace;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.menu-item-box {
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(3, 290px);
+
+  padding: 20px;
+  margin-left: 120px;
+}
+
+.breakfast,
+.lunch,
+.dinner {
+  color: aquamarine;
+}
+
+.menu-item-box ul li {
+  list-style: none;
+  font-size: 20px;
+  color: tomato;
+}
+
+.home-title,
+.dummy {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.inp-sec {
+  display: grid;
+  padding: 60px;
+}
+
+.name-class,
+.mail-class,
+.msg-class {
+  font-size: 30px;
+  border-radius: 5px;
+  border: 1px solid chocolate;
+  margin-bottom: 26px;
+  padding: 10px;
+}
+
+.submit {
+  width: 20%;
+  font-size: 30px;
+  border: 1px solid rgb(120, 221, 120);
+  border-radius: 4px;
+  padding: 5px;
+  color: black;
+  background-color: rgb(120, 221, 120);
 }
